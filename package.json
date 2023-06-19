@@ -1,0 +1,21 @@
+{
+  "name": "44-grupe-server-ts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc --watch",
+    "server": "nodemon ./dist"
+  },
+  "keywords": [],
+  "author": "ZygimantasL",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
